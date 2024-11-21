@@ -14,7 +14,7 @@ const ColorInput = ({ color, setColor, handleConvert }) => {
       <InputGroup className="mb-3">
         <Form.Control
           type="text"
-          placeholder="Mã HEX, RGB, hoặc HSL"
+          placeholder="Mã HEX hoặc RGB"
           value={color}
           onChange={(e) => setColor(e.target.value)}
           onKeyDown={handleKeyDown} // Handle Enter key
